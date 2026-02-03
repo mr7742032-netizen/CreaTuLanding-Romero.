@@ -1,17 +1,16 @@
-import CartWidget from '.CartWidget';
+import '../assets/css/NavBar.css'
+import CartWidget from './CartWidget'
 
 const NavBar = () => {
-  return (
-    <nav>
-      <div className="logo">Mi E-commerce</div>
-      <ul>
-        <li><a href=""></a></li>                 
-        <li><a href="">Productos</a></li>
-        <li><a href="">Contacto</a></li>
-      </ul>
-      <CartWidget />
-    </nav>
-  );
-};
+    return (
+        <nav className='nav-container'>
+            <a href="anchor-nav">prueba1</a>
+            <a href="anchor-nav">prueba2</a>
+            <a href="anchor-nav">prueba3</a>
+            <a href="anchor-nav">prueba4</a>
+            <CartWidget/>
+        </nav>
+    )
+}
 
-export default NavBar;
+export default NavBar

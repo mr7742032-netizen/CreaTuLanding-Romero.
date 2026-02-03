@@ -1,10 +1,10 @@
 const CartWidget = () => {
-  return (
-    <div className="cart-widget">
-      <i className="fas fa-shopping-cart"></i>
-      <span>0</span>
-    </div>
-  );
-};
+    return (
+        <div>
+            <span>🛒</span>
+            <span style={{color:'red', fontWeight:'bold'}}>10</span>
+        </div>
+    )
+}
 
-export default CartWidget;
+export default CartWidget
