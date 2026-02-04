@@ -1,4 +1,5 @@
 const CartWidget = () => {
+    console.log('CartWidget')
     return (
         <div>
             <span>🛒</span>
