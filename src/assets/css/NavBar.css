@@ -12,3 +12,7 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.logo {
+    width: 9rem;
+}
